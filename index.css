@@ -1,0 +1,33 @@
+body {
+	background-color:#DDA0DD;
+	}
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	color: 	#DB7093;
+}
+img {
+	display: block; margin: auto;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: auto;
+}
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+th {
+	background-color: #transparent
+}
+td {
+	background-color: #transparent
+}
+p {
+	margin-right: 2cm;
+	margin-left: 2cm;
+	text-align: justify;
+l>
