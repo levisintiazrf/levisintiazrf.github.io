@@ -1,0 +1,113 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #FFE4C4; 
+}
+.medsos ul li{
+	display: inline-block;
+	color: black;
+	margin-right: 10px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color:#8B0000
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color:#FFE4C4; 
+	color: Black;
+}
+.active{
+	background-color:#FFE4C4; 
+	color: black;
+}
+.banner{
+	height: 60vh;
+	background-image: url(Background.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(Background.jpg);
+}
+.banner h2{
+	background-color:#E9967A;
+	color:#000000;
+	z-index: 1;
+	padding: 20px 20px;
+	border: 5px double #FFE4E1;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	background-image: url(bgsection.png);
+	text-align: center;
+	padding: 20px 0;
+	color: #CD5C5C;
+	margin-bottom: 20px;
+}
+section p{
+	background-image: url(background pengalaman.jpg);
+	color:#F08080;
+	word-spacing: 2px;
+	line-height: 20px;
+	padding: 50px;
+	text-align:justify;
+}
+.pengalaman{
+	background-image: url(background pengalaman.jpg);
+}
+.biodata{
+	background-image: url(background biodata.jpg);
+}
+.biodata ul li{
+	background-image: url(background biodata.jpg);
+	text-align: left;
+	padding: 1px 0;
+	color:   #000000;
+	margin-bottom: 10px;
+	display: block;
+}
+.gallery{
+	background-image: url(background images.jpg);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
